@@ -1,2 +1,0 @@
-#check factorial
-hkgiudwgcuiwehc
