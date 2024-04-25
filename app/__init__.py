@@ -113,7 +113,7 @@ def formtodata():
     with open(fname,'w', newline="") as writer:
         writer.write("#"+title+"\n")
         writer.writelines(pcode)
-    return f"{name_of_file},{title},{pcode}"
+    return render_template("addcode.html")
     # with open("py"+)
     # return render_template("addcode.html")
 @app.route('/addcode')
