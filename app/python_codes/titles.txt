@@ -1,0 +1,7 @@
+# check prime$$$py1.py
+# check odd$$$py2.py
+# calculate factorial$$$py3.py
+# check factorial$$$py4.py
+# making a matrix with 0$$$py5.py
+# making a matrix with 12$$$py6.py
+# making a matrix with just val$$$py7.py

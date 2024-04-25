@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/details" method="POST">
+    <ol>
+    {%for k,v in results.items()%}
+    
+    <a href="{{url_for("pythonresults",key1=k)}}"><li>{{ v }}</li></a>
+    
+    {%endfor%}
+    </ol>
+    
+    </form>
+   
+
+</body>
+</html>
